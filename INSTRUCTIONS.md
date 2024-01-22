@@ -8,7 +8,7 @@ Die Challenge, welche im Rahmen des Moduls "Challenge Based Making (WS 23/24)" g
 
 Anhand dieser Challenge führten wir einige Interviews mit Studierenden um herauszufinden, was die größten Auslöser für eine schlechte Aufenthaltsqualität sind. Aus dem Ergebnis der Interviews haben wir eine Persona erstellt: 
    
-   ![persona](https://github.com/cbm-instructions/sixtysix/blob/main/POV.png)
+   ![persona](https://github.com/cbm-instructions/sixtysix/blob/main/images/POV.png)
 
 
 # Bauanleitung
