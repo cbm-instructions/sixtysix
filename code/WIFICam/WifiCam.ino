@@ -3,11 +3,9 @@
 //#include <SPI.h>
 //#include <Ethernet.h>
 
-static const char* WIFI_SSID = "Honor8X";
-static const char* WIFI_PASS = "e39e4278278d";
+static const char* WIFI_SSID = "SSID";
+static const char* WIFI_PASS = "PASSWORD";
 
-//static const char* WIFI_SSID = "inno.space";
-//static const char* WIFI_PASS = "!nn0.Spac3";
 
 esp32cam::Resolution initialResolution;
 
