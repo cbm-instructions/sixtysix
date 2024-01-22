@@ -12,7 +12,7 @@ Anhand dieser Challenge führten wir einige Interviews mit Studierenden um herau
 
 
 # Bauanleitung
-In diesem Abschnitt befindet sich die komplette Anleitung zum Bau von dem TechTresor. Der Code für den Arduino  und Raspberry befindet sich hier:  [Code](https://github.com/cbm-instructions/sixtysix/tree/main/code)
+In diesem Abschnitt befindet sich die komplette Anleitung zum Bau von dem TechTresor. Der Code für den Arduino  und Raspberry befindet sich hier:  [Code](https://github.com/cbm-instructions/sixtysix/code)
 
 ## Materialien und Werkzeuge
 ### Materialien
@@ -68,9 +68,14 @@ Als aller erstes wird der Schrank selbst gebaut. Dafür braucht man genug Holz u
 #### 3.1 Raspberry
 #### 3.2 ESP32-Cam
 #### 3.3 Barcode-Scanner
+#### 3.4 Datenbank erstellen
 
 ### 4. Code schreiben
+Damit der TechTresor richtig funktioniert muss für die einzelnen Technikkomponenten Code geschrieben werden. Insgesamt haben wir drei verschiedene Skripte geschrieben, die verschiedene Teile des TechTresors steuern. Das erst Skript welches sich um das starten und steuern der ESP32-Cam kümmert befindet sich [hier](https://github.com/cbm-instructions/sixtysix/tree/main/code/WIFICam). 
 
+Es muss auch ein Skript geschrieben werden, welches auf dem Arduino Uno läuft. In diesem befindet sich die Logik für den RFID-Scanner, Servo-Motor und LED-Strips. Der Arduino Code befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/Arduino.ino).
+
+Das dritte Skript ist ein Python Skript, welches auf dem konfigurierten Raspberry Pi laufen muss. Mithilfe diesem Python Skript wird eine Kommunikation zwischen dem Arduino und Raspberry ermöglicht. Das geschieht durch eine Library namens "Pyserial". Des Weiteren nimmt das Python-Skript die erfassten Artikel des Barcode-Scanners auf und speichert sie zusammen mit dem von der URL abgerufenen Bild der ESP32-Cam beim Schließen der Schranktür in die lokalen SQLite-Datenbank unter dem Table "images". Außerdem wird für jedes ausgeliehene und zurückgegebenes Item der Table "items" aktualisiert um den aktuellsten Zustand eine jeden Items zu erhalten (Mit Zustand ist gemeint ob ein Item momentan ausgeliehen ist oder nicht). Das Python Skript befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/asdf.py).
 ### 5. Schranktür bauen
 
 ### 6. Technik anbringen
