@@ -12,7 +12,7 @@ Anhand dieser Challenge führten wir einige Interviews mit Studierenden um herau
 
 
 # Bauanleitung
-In diesem Abschnitt befindet sich die komplette Anleitung zum Bau von dem TechTresor. Der Code für den Arduino  und Raspberry befindet sich hier:  [Code](https://github.com/cbm-instructions/sixtysix/code)
+In diesem Abschnitt befindet sich die komplette Anleitung zum Bau von dem TechTresor. Der Code für den Arduino  und Raspberry befindet sich hier:  [Code](https://github.com/cbm-instructions/sixtysix/tree/main/code)
 
 ## Materialien und Werkzeuge
 ### Materialien
