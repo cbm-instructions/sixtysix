@@ -69,6 +69,29 @@ Als aller erstes wird der Schrank selbst gebaut. Dafür braucht man genug Holz u
 #### 3.2 ESP32-Cam
 #### 3.3 Barcode-Scanner
 #### 3.4 Datenbank erstellen
+Um die Bilder, welche bei der Öffnung der Tür entstehen abzuspeichern und um immer den aktuellsten Bestand der Produktverfügbarkeit zu haben wird eine Datenbank benötigt. Wir haben uns für eine SQLite Datenbank entschieden, die lokal auf dem Raspberry Pi läuft. Dazu muss man SQLite wie folgt auf dem Raspberry per Terminal herunterladen: 
+```
+sudo apt install sqlite3
+```
+Nachdem SQLite installiert wurde, kann eine Datenbank mit folgendem Befehl erstellt werden: 
+```
+sqlite3 DatabaseName.db
+```
+Jetzt kann mit folgendem Befehl die Datenbank geöffnet werden (nachdem SQLite gestartet wurde): 
+```
+.open DatabaseName.db
+```
+Die Datenbank existiert also nun aber es werden noch zwei Tables benötigt in die die Daten geschrieben werden. Benötigt wird ein Table für die Aktivität des TechTresors. Konkret gesagt heißt das, dass für jedes Öffnen der Tür die eindeutige ID des Studi-Ausweises, das entstandene Bild und alle Items die von diesem Studierenden ausgeliehen wurde in den Table geschrieben wird. Diesen Table nennen wir mal "images". Um ein solchen Table zu erstellen muss folgender Befehlt ausgeführt werden:
+```sql
+CREATE TABLE images (image BLOB, uid VARCHAR(32), qrcodes TEXT); 
+```
+Außerdem wird noch ein Table benötigt um den aktuellen Bestand aller Items im Schrank festzuhalten. Die Idee dahinter ist, dass für jedes Item ein Eintrag in diesem Table erstellt wird mit der dazugehörigen Item ID und ein "taken" Bit, welches für den Status des Items steht. Wenn das "taken" Bit auf 1 steht, dann ist das Item ausgeliehen und wenn es 0 steht, dann ist das Item verfügbar. Der Befehl für das Erstellen eines solchen Tables sieht so aus: 
+```sql
+CREATE TABLE items (qrcode VARCHAR(32), taken BIT);
+```
+Später wenn es wirklich Produkte in dem TechTresor geben soll, müssen diese natürlich in dem "items" Table eingetragen werden.
+
+
 
 ### 4. Code schreiben
 Damit der TechTresor richtig funktioniert muss für die einzelnen Technikkomponenten Code geschrieben werden. Insgesamt haben wir drei verschiedene Skripte geschrieben, die verschiedene Teile des TechTresors steuern. Das erst Skript welches sich um das starten und steuern der ESP32-Cam kümmert befindet sich [hier](https://github.com/cbm-instructions/sixtysix/tree/main/code/WIFICam). 
