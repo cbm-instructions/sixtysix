@@ -66,9 +66,26 @@ Als aller erstes wird der Schrank selbst gebaut. Dafür braucht man genug Holz u
 
 ### 3. Technik konfigurieren
 #### 3.1 Raspberry
-#### 3.2 ESP32-Cam
-#### 3.3 Barcode-Scanner
-#### 3.4 Datenbank erstellen
+#### 3.2 Arduino Uno
+
+ 1. Installiere die Arduino IDE
+ 2. Öffne `Tools/Board` in der Arduino IDE und wähle den Arduino Uno
+ 3. Öffne  `Tools/Port`  und wähle den COM Port, mit dem der Arduino Uno verbunden ist.
+ 4. Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools/Manage Libraries`) installiert werden:
+    -   Adafruit NeoPixel
+    - MFRC522
+    - Servo
+
+#### 3.3 ESP32-Cam
+1.  Öffne  `File/Preferences`
+2.  Gebe folgendes in das  `Additional Board Mananger URLs`  Feld ein: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+und http://arduino.esp8266.com/stable/package_esp8266com_index.json
+3.  Öffne  `Tools/Board/Boards Manager`
+4.  Suche nach ESP32 und Klicke den  `install`  Knopf für  `ESP32 by Espressif Systems`
+
+Der Code für die ESP32-Cam ist eine angepasste Version von folgendem Open Source Projekt: https://github.com/yoursunny/esp32cam/tree/main/examples/WifiCam
+#### 3.4 Barcode-Scanner
+#### 3.5 Datenbank erstellen
 Um die Bilder, welche bei der Öffnung der Tür entstehen abzuspeichern und um immer den aktuellsten Bestand der Produktverfügbarkeit zu haben wird eine Datenbank benötigt. Wir haben uns für eine SQLite Datenbank entschieden, die lokal auf dem Raspberry Pi läuft. Dazu muss man SQLite wie folgt auf dem Raspberry per Terminal herunterladen: 
 ```
 sudo apt install sqlite3
