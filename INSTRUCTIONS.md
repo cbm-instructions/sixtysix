@@ -140,8 +140,13 @@ Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel L
 
 ![LEDs](https://github.com/cbm-instructions/sixtysix/blob/main/images/LEDAußen.jpg)
 ## Funktionsweise
+Der TechTresor hatte viele Funktionalitäten weswegen wir es für sinnvoll erachten die allgemeine Funktionsweise in einem eigenen Abschnitt zu erläutern. 
 
-## Nutzungsanleitung
+Wenn ein Studierender ein oder mehrere Items aus dem TechTresor ausleihen möchte muss dieser seinen Studi-Ausweis an den RFID-Sensor halten, der sich in der Tür befindet. In dem selben Moment macht die ESP32-Cam ein Foto von dem Inneren des Schranks. Nach kurzer Zeit öffnet der Servo-Motor das 3D-Druck Schloss, wodurch sich die Tür öffnen lässt. Jetzt kann sich der Studierende ein Produkt nehmen und an dem im inneren der Tür fixierten Barcode-Scanner abscannen. Das kann der Studierende mit beliebig vielen Produkten machen. Zum Schließen der Tür muss einfach nur wieder der Studi-Ausweis an den RFID-Reader gehoben werden. 
+Zusätzlich zu diesen Hauptfunktionalitäten gibt es noch zwei weiter Features, welche den TechTresor besonders machen. Das erste Feature ist der Bewegungssensor, der sich auf dem TechTresor befindet. Mithilfe von dem Bewegungssensor wird, sobald eine Person an dem TechTresor vorbeiläuft ein zufälliger Sound durch einen eingebauten Lautsprecher abgespielt, damit wird die Aufmerksamkeit der Personen auf den TechTresor gelenkt.
+Das zweite Feature sind die zwei LED-Strips die sich an den Seitenwänden des TechTresors befinden. Diese geben Auskunft darüber wie viele Items sich noch im Inneren befinden. Wenn mehr als 66% der Items nicht ausgeliehen sind, leuchten die LEDs grün. Bei weniger als 66% aber mehr als 33%, dann leuchten sie orange. Wenn weniger als 33% der Items vorhanden sind, leuchten die LEDs rot. 
+
+## Nutzungsanleitung für Studierende
 
  1. Halte deinen Studi-Ausweis an das RFID-Symbol vorne am Schrank, nach kurzem Warten solltest du hören, wie sich der Schrank öffnet
  2. Suche dir anschließend das aus was du brauchst und scanne jedes Item einzeln mit dem Barcode-Scanner in der Tür
