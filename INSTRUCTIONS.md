@@ -21,7 +21,7 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau von dem TechTr
  - Raspberry Pi 3
  - ESP32-Kamera
  - RFID Reader RC522
- - Ultraschall Entferungsmesser HC-SR04
+ - Ultraschall Entfernungsmesser HC-SR04
  - Lautsprecher mit AUX Anschluss
  - TIANKONGRC TS90A Servo - 3.3V
  - **Leiterplatte ???**
@@ -61,7 +61,19 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau von dem TechTr
 
 ## Schritt für Schritt Anleitung
 ### 1. Schrank bauen
-Als aller erstes wird der Schrank selbst gebaut. Dafür braucht man genug Holz um die Wände, Decke und den Boden zu bauen. Für unseren Schrank haben wir uns für ehemalige Tischplatten entschieden, welche wir mithilfe einer Kreissäge passend zusammen geschnitten haben. 
+Als aller erstes werden die Schrankwände zugesägt und zusammengebaut. Dafür braucht man genug Holz um die Wände, Decke und den Boden zu erstellen. Für unseren Schrank haben wir uns für ehemalige Tischplatten entschieden, welche wir mithilfe einer Kreissäge passend zusammen geschnitten haben. Wie genau das Holz geschnitten werden muss kann man gut mit dieser SVG Dateien erkennen: [Schrank SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Au%C3%9Fengestell_Ma%C3%9Fe.svg)
+Dabei muss man beachten, dass in der Decke (Nr. 5 in SVG) ein kleines Loch gebohrt werden muss um später die Kabel für den Entfernungsmesser und Lautsprecher durchführen zu können. In die hintere Wand (Nr. 3 in SVG) muss ein etwas größeres Loch gebohrt werden um später das Stromkabel und wenn gewollt ein HDMI Kabel für den Raspberry Pi durchführen zu können. Außerdem muss in die Seitenwände (Nr. 1 & 2 in SVG) ein passender großer Bereich gefräst werden um dort später die Neopixel LED Strips anzubringen. Außerdem muss an jeder Seite ein Loch in den gefrästen Bereich der Wände gebohrt werden um die LED Strips mit Strom usw. zu versorgen zu können. 
+Wenn die Wände zugesägt wurden und die eben beschriebenen Dinge getan worden sind, müssen die Wände befestigt werden. Das wird mithilfe eines Akkuschraubers getan mit dem die Wände miteinander verschraubt werden. 
+Als erstes werden die beiden Seitenwände (Nr. 1 & 2) mit der Rückwand (Nr. 3)  verschraubt. Dazu werden 8 Schrauben benötigt:  
+![Rückwand Schrauben](https://github.com/cbm-instructions/sixtysix/blob/main/images/R%C3%BCckSchrauben.png)
+
+Als nächstes wird die Decke (Nr. 5) mit den Seitenwänden und der Rückwand verschraubt. Dazu werden 8 Schrauben benötigt: 
+![Decke Schrauben](https://github.com/cbm-instructions/sixtysix/blob/main/images/DeckeSchrauben.png)
+
+Der letzte Schritt ist das Verschrauben des Bodens mit den Wänden. Auch dazu werden 8 Schrauben benötigt:
+![Boden Schrauben](https://github.com/cbm-instructions/sixtysix/blob/main/images/BodenSchrauben.png)
+
+
 ### 2. Schrankinneres erstellen
 
 ### 3. Technik konfigurieren
@@ -117,8 +129,9 @@ Es muss auch ein Skript geschrieben werden, welches auf dem Arduino Uno läuft. 
 
 Das dritte Skript ist ein Python Skript, welches auf dem konfigurierten Raspberry Pi laufen muss. Mithilfe diesem Python Skript wird eine Kommunikation zwischen dem Arduino und Raspberry ermöglicht. Das geschieht durch eine Library namens "Pyserial". Des Weiteren nimmt das Python-Skript die erfassten Artikel des Barcode-Scanners auf und speichert sie zusammen mit dem von der URL abgerufenen Bild der ESP32-Cam beim Schließen der Schranktür in die lokalen SQLite-Datenbank unter dem Table "images". Außerdem wird für jedes ausgeliehene und zurückgegebenes Item der Table "items" aktualisiert um den aktuellsten Zustand eine jeden Items zu erhalten (Mit Zustand ist gemeint ob ein Item momentan ausgeliehen ist oder nicht). Das Python Skript befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/asdf.py).
 ### 5. Schranktür bauen
+### 6. Free Stuff Schublade
 
-### 6. Technik anbringen
+### 7. Technik anbringen
 Die Verkabelung der Technikkomponenten ist aufgebaut wie in der folgenden Grafik dargestellt:
 ![Schaltplan](https://github.com/cbm-instructions/sixtysix/blob/main/images/Schaltplan.png)
 Wir haben uns dafür entschieden die Kabel zu löten und eine Leiterplatte zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Kabelstecker ohne löten auszukommen. 
@@ -136,9 +149,13 @@ Neben den zwei großen Technispaces gibt es noch zwei kleinere Stellen an dem Te
 
 ![Motionsensor innen](https://github.com/cbm-instructions/sixtysix/blob/main/images/MotionSensorInnen.jpg)
 
-Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Um diese Strips an den Schrank anzubringen muss in den Seitenwänden ein passender großer Bereich gefräst werden und es muss an jeder Seite ein Loch in die Wände gebohrt werden um die LED Strips mit Strom usw. zu versorgen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
+Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen eingelegt werden und die Kabel durch ein kleines Loch geführt werden.  Die LEDs müssen, wenn korrekt angebracht so aussehen: 
 
 ![LEDs](https://github.com/cbm-instructions/sixtysix/blob/main/images/LEDAußen.jpg)
+### 8. Letzte Kleinigkeiten
+Plexi Glas neopixel
+sticker
+
 ## Funktionsweise
 Der TechTresor hatte viele Funktionalitäten weswegen wir es für sinnvoll erachten die allgemeine Funktionsweise in einem eigenen Abschnitt zu erläutern. 
 
