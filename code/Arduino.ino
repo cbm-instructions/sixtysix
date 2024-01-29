@@ -80,7 +80,7 @@ void setup() {
 Checks if there is a Card to scan with the rfid.
   If so, either:  call open()
                   call close()
-Else checks if someone is walking in front of the 'Tech-Tresor'.
+Else checks if someone is walking in front of the 'TechTresor'.
   If so: send signal to Raspberry
 Checks if there is a signal from the raspberry.
   If so: Change color of the leds.
@@ -123,7 +123,7 @@ void loop() {
       duration = pulseIn(echoPin, HIGH);
       cm = microsecondsToCentimeters(duration);
 
-    if(cm <=40){  //Anpassen, Zahl -> Abstand in cm zu dem Ultraschallsensor
+    if(cm <=40){
       Serial.println("SOUND");
       delay(250);
     }
@@ -175,7 +175,7 @@ void startLED() {
   }
 }
 
-//Sets color of leds corresponding to the percentage of still available items in the 'Tech-Tresor'
+//Sets color of leds corresponding to the percentage of still available items in the 'TechTresor'
 void setColorOfLEDs(int color) {
   pixels.clear();
   for (int i = 0; i < NUMPIXELS; i++) {  // For each pixel...
