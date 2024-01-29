@@ -136,7 +136,7 @@ Es muss auch ein Skript geschrieben werden, welches auf dem Arduino Uno läuft. 
 
 Das dritte Skript ist ein Python-Skript, das auf dem konfigurierten Raspberry Pi ausgeführt werden muss. Dieses Python-Skript ermöglicht die Kommunikation zwischen dem Arduino und dem Raspberry Pi mithilfe einer Bibliothek namens "Pyserial". Darüber hinaus erfasst das Python-Skript die Artikel des Barcode-Scanners und speichert sie zusammen mit dem von der URL abgerufenen Bild der ESP32-Cam beim Schließen der Schranktür in die lokale SQLite-Datenbank unter dem Tabellennamen "images". Zusätzlich wird für jedes ausgeliehene und zurückgegebene Objekt die Tabelle "items" aktualisiert, um den aktuellen Status jedes Objekts zu verfolgen (mit Status ist gemeint, ob ein Objekt derzeit ausgeliehen ist oder nicht). Das Python-Skript befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/asdf.py).
 ### 5. Schranktür bauen
-### 7. Technik anbringen
+### 6. Technik anbringen
 Die Verkabelung der Technikkomponenten ist aufgebaut wie in der folgenden Grafik dargestellt:
 ![Schaltplan](https://github.com/cbm-instructions/sixtysix/blob/main/images/Schaltplan.png)
 Wir haben uns dafür entschieden die Kabel zu löten und eine Leiterplatte zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Kabelstecker ohne löten auszukommen. 
@@ -157,13 +157,13 @@ Neben den zwei großen Technikspaces gibt es noch zwei kleinere Stellen an dem T
 Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen eingelegt werden und die Kabel durch ein kleines Loch geführt werden.  Die LEDs müssen, wenn korrekt angebracht so aussehen: 
 
 ![LEDs](https://github.com/cbm-instructions/sixtysix/blob/main/images/LEDAußen.jpg)
-### 8. Free Stuff Schublade
+### 7. Free Stuff Schublade
 Die Idee hinter der Free Stuff Schublade ist, dass Studierende sich nicht nur Technikgegenstände ausleihen können sondern auch kleiner Artikel kostenlos erhalten können. Solche Artikel sind beispielsweise Süßgikeiten oder Hygieneartikel.
 
 Die Free Stuff Schublade besteht aus Sperrholz, dass nach folgenden Maßen zugeschnitten werden muss: [Free Stuff SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/FreeStuffSchublade_Ma%C3%9Fe.svg). Die Schublade muss zusammengesteckt werden und anschließend oberhalb des Technikspaces im inneren des TechTresors angebracht werden. 
 
 Am Schluss muss die montierte Schublade so angebracht werden wie oben im Bild: ![Free Stuff Schublade](https://github.com/cbm-instructions/sixtysix/blob/main/images/FreeStuff.jpg)
-### 9. Letzte Kleinigkeiten
+### 8. Letzte Kleinigkeiten
 Zum Schluss müssen noch ein paar letzte Kleinigkeiten gemacht werden um den TechTresor zu vervollständigen. Als erstes müssen die Neopixel Strips, die sich an der Seite befinden mit einer Plexiglas Abdeckung geschützt werden. Diese muss mit einem Lasercutter zugeschnitten werden. Auch dazu gibt es eine SVG-Datei: [Plexiglas](https://github.com/cbm-instructions/sixtysix/blob/main/images/LED_Plexiglascover_Ma%C3%9Fe.svg)
 
 Um den TechTresor zu verschönern und den Nutzern wichtige Hinweise zu geben sind Sticker für den RFID-Reader, die Free Stuff Schublade, den Barcode Scanner und die benutzte USB-Sticks Schublade ein guter Weg. Die Sticker müssen natürlich an den korrekten Stellen angebracht werden um den Nutzer mitzuteilen, wo sich welches Komponent am TechTresor befindet. Die Sticker befinden sich in folgender SVG-Datei: [Sticker](https://github.com/cbm-instructions/sixtysix/blob/main/images/Vinyl_Sticker_Ma%C3%9Fe.svg)
