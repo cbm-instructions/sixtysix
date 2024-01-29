@@ -30,10 +30,12 @@ bool hasSent = false;
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 50  // Popular NeoPixel ring size
 
-//   When setting up the NeoPixel library, we tell it how many pixels,
-//   and which pin to use to send signals. Note that for older NeoPixel
-//   strips you might need to change the third parameter -- see the
-//   strandtest example for more information on possible values.
+/* Neopixel Setup
+   When setting up the NeoPixel library, we tell it how many pixels,
+   and which pin to use to send signals. Note that for older NeoPixel
+   strips you might need to change the third parameter -- see the
+   strandtest example for more information on possible values.
+*/   
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel pixels2(NUMPIXELS, LEDPIN, NEO_GRB + NEO_KHZ800);
