@@ -8,10 +8,12 @@
 
 Servo myservo;
 
-//Weitere Pins müssen vom RFID-Scanner beim Arduino gesteckt werden. (Siehe https://elektro.turanis.de/html/prj102/index.html)
-  //    SCK	Pin 13
-  //    MOSI Pin 11
-  //    MISO	Pin 12
+/*
+    Additional pins must be plugged into the Arduino by the RFID scanner. (See https://elektro.turanis.de/html/prj102/index.html)
+      SCK	Pin 13
+      MOSI Pin 11
+      MISO	Pin 12
+*/
 #define SS_PIN 10
 #define RST_PIN 5
 
@@ -27,18 +29,21 @@ bool hasSent = false;
 
 // How many NeoPixels are attached to the Arduino?
 #define NUMPIXELS 50  // Popular NeoPixel ring size
-
-// When setting up the NeoPixel library, we tell it how many pixels,
-// and which pin to use to send signals. Note that for older NeoPixel
-// strips you might need to change the third parameter -- see the
-// strandtest example for more information on possible values.
+/*
+   When setting up the NeoPixel library, we tell it how many pixels,
+   and which pin to use to send signals. Note that for older NeoPixel
+   strips you might need to change the third parameter -- see the
+   strandtest example for more information on possible values.
+*/
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel pixels2(NUMPIXELS, LEDPIN, NEO_GRB + NEO_KHZ800);
 
-#define DELAYVAL 5  // Time (in milliseconds) to pause between pixels
+//Time (in milliseconds) to pause between pixels
+#define DELAYVAL 5
 
 int ledColor = 1;
 
+//rfid obejct
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 bool isOpen = false;
@@ -51,9 +56,10 @@ void setup() {
   clock_prescale_set(clock_div_1);
 #endif
   // END of Trinket-specific code.
-
-  pixels.begin();  // INITIALIZE NeoPixel strip object (REQUIRED)
-  pixels2.begin(); //überall anpassen bei den LED-Methoden, dass beide pixels dasselbe machen
+  
+  // INITIALIZE NeoPixel strip objects
+  pixels.begin();  
+  pixels2.begin(); 
   startLED();
 
 
@@ -62,13 +68,21 @@ void setup() {
   SPI.begin();      // init SPI bus
   rfid.PCD_Init();  // init MFRC522
 
-  //Serial.println("Tap RFID/NFC Tag on reader");
 
   myservo.attach(2);  // attaches the servo on GIO2 to the servo object
-  myservo.write(0);
+  myservo.write(0);  //
   setColorOfLEDs(2);
 }
 
+/* LOOP
+Checks if there is a Card to scan with the rfid.
+  If so, either:  call open()
+                  call close()
+Else checks if someone is walking in front of the 'Tech-Tresor'.
+  If so: send signal to Raspberry
+Checks if there is a signal from the raspberry.
+  If so: Change color of the leds.
+*/
 void loop() {
 
   if (rfid.PICC_IsNewCardPresent()) {  // new tag is available
@@ -120,28 +134,28 @@ void loop() {
 }
 
 
-long microsecondsToCentimeters(long microseconds) {     // je nachdem wo unser Teil stellt, würde ich das auf mindestens 200cm setzen, bis hin zu 300cm und dann ein größeren Delay einbauen, für die Tonausgabe
+//Used to calculate the correct distance for the ultra souud meter
+long microsecondsToCentimeters(long microseconds) {
   int real_distance = microseconds / 29 / 2;
   return real_distance;
 }
 
 
-
+//Opens the door by using the servo, which is connected to the lock
 void open() {
   isOpen = true;
-  for (int pos = 0; pos <= 80; pos += 1) {  // goes from 0 degrees to 180 degrees
-                                             // in steps of 1 degree
-    myservo.write(pos);                      // tell servo to go to position in variable 'pos'
-    delay(5);                                // waits 15ms for the servo to reach the position
+  for (int pos = 0; pos <= 80; pos += 1) {                         
+      myservo.write(pos);                      
+      delay(5);                                
   }
 }
 
-
+//Closes the door by using the servo, which is connected to the lock
 void close() {
   isOpen = false;
-  for (int pos = 80; pos >= 0; pos -= 1) {  // goes from 180 degrees to 0 degrees
-    myservo.write(pos);                        // tell servo to go to position in variable 'pos'
-    delay(5);                                  // waits 15ms for the servo to reach the position
+  for (int pos = 80; pos >= 0; pos -= 1) {  
+      myservo.write(pos);                        
+      delay(5);                                  
   }
 }
 
@@ -149,25 +163,20 @@ void close() {
 void startLED() {
   for (int i = 0; i < NUMPIXELS; i++) {  // For each pixel...
 
-    // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
-    // Here we're using a moderately bright green color:
-
     pixels.setPixelColor(i, pixels.Color(0, 150, 0));
     pixels2.setPixelColor(i, pixels.Color(0, 150, 0));
 
     pixels.show();  // Send the updated pixel colors to the hardware.
-    pixels2.show();
+    pixels2.show();  // Send the updated pixel colors to the hardware.
 
     delay(DELAYVAL);
   }
 }
 
+//Sets color of leds corresponding to the percentage of still available items in the 'Tech-Tresor'
 void setColorOfLEDs(int color) {
   pixels.clear();
   for (int i = 0; i < NUMPIXELS; i++) {  // For each pixel...
-
-    // pixels.Color() takes RGB values, from 0,0,0 up to 255,255,255
-    // Here we're using a moderately bright green color:
     if (color == 0) {
       pixels.setPixelColor(i, pixels.Color(255, 0, 0));
       pixels2.setPixelColor(i, pixels.Color(255, 0, 0));
@@ -183,7 +192,7 @@ void setColorOfLEDs(int color) {
     }
   }
   pixels.show();  // Send the updated pixel colors to the hardware.
-  pixels2.show();
+  pixels2.show(); // Send the updated pixel colors to the hardware.
 
   delay(DELAYVAL);  // Pause before next pass through loop
 }
