@@ -108,10 +108,10 @@ listener.start()
 	
 def end_session():
 	"""
- 	Used to close the door of the 'Tech-Tresor'
+ 	Used to close the door of the 'TechTresor'
 	The already taken picture, session_uid and all the borrowed items are saved in the database 
 	The number of all items and all available items are saved as variables
-   	The if/elif/else-part is used to tell the arduino to cahnge the led color corresponding to the percantage of items in 'Tech-Tresor'
+   	The if/elif/else-part is used to tell the arduino to cahnge the led color corresponding to the percantage of items in 'TechTresor'
  	"""
 	global qr_data, qr_codes, image, session_uid, opened
 	db = sqlite3.connect('/home/cbm66/Desktop/box.db')
