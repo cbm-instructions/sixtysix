@@ -172,19 +172,19 @@ Um die gesamte Technik im TechTresor zu verbergen, müssen die beiden Technikrä
 
 Jetzt da der TechTresor fertig gebaut wurde, müsst er ungefähr so aussehen: 
 
-Entfernungsmesser und Free Stuff Schublade: ![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/ObenFertig.png)
+Entfernungsmesser und Free Stuff Schublade: ![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/ObenFertig.jpg)
 
 Das Innere des TechTresors: 
-![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/InnenFertig.png)
+![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/InnenFertig.jpg)
 
 Das Äußere des TechTresors: 
-![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/AußenFertig.png)
+![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/AußenFertig.jpg)
 
 Von hinten:
-![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/HintenFertig.png)
+![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/HintenFertig.jpg)
 
 Fertige Tür:
-![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürFertig.png)
+![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürFertig.jpg)
 
 ## Funktionsweise
 Angesichts der Vielzahl an Funktionen des TechTresors halten wir es für sinnvoll, die allgemeine Funktionsweise in einem separaten Abschnitt zu erläutern.
