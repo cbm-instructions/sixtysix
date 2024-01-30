@@ -102,7 +102,7 @@ Die Box wird zunächst nur zusammengebaut und dann im weiteren Verlauf der Anlei
 
 ### 3. Technik konfigurieren
 #### 3.1 Raspberry
-Es empfiehlt sich, den Raspberry neu aufzusetzten und `sudo apt update` & `sudo apt upgrade` im Terminal auszuführen. Eine IDE (Geany), um einfache Scripte zu schreiben, sollte bereits installiert sein. Auch python3 sollte vorinstalliert sein. Selbst nach Fertigstellung der Box, kann der Raspberry per HDMI mit einem Monitor und per USB/Bluetooth mit einer Maus & Tastatur verbunden sein, um stets den Überlick über ablaufende Prozesse im TechTresor zu behalten.
+Es empfiehlt sich, den Raspberry neu aufzusetzen und `sudo apt update` & `sudo apt upgrade` im Terminal auszuführen. Eine IDE (Geany), um einfache Skripte zu schreiben, sollte bereits installiert sein. Auch python3 sollte vorinstalliert sein. Selbst nach Fertigstellung der Box, kann der Raspberry per HDMI mit einem Monitor und per USB/Bluetooth mit einer Maus & Tastatur verbunden werden, um stets den Überlick über ablaufende Prozesse im TechTresor zu behalten.
 
 #### 3.2 Arduino Uno
 
