@@ -230,5 +230,5 @@ Das zweite Feature sind die zwei LED-Strips, die sich an den Seitenwänden des T
  3. Schließe die Tür und halte sie geschlossen, halte dabei deinen Studi-Ausweise erneut an das RFID-Symbol, bis du hörst, wie das Schloss sich schließt
  
  Gib deine Artikel spätestens nach 2 Wochen wieder ab, damit sie auch jemand anderem helfen können.
- ![Anleitung](https://github.com/cbm-instructions/sixtysix/blob/main/images/A4-3.pdf)
+ ![Anleitung](https://github.com/cbm-instructions/sixtysix/blob/main/images/Anleitung.pdf)
 
