@@ -85,9 +85,13 @@ Am Ende soll der Schrank so aussehen:
 Das TechTresor-Innenleben kann natürlich den eigenen Bedürfnissen (Größe der Fächer etc.) individuell angepasst werden. Wir haben uns für folgende Aufteilung entschieden, welche in dieser Anleitung näher beschrieben wird:
 ![Nahaufnahme innen](https://github.com/cbm-instructions/sixtysix/blob/main/images/InnenFertig.jpg)
 
-Als erstes werden 3 Sperrholzplatten (Maße: [Platte SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Regalex2_Maße.svg)) auf Innenhöhe 15cm, 45cm und 50cm angebracht.
+Als erstes werden 3 Sperrholzplatten (Maße: [Regale SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Regalex2_Maße.svg)) zugeschnitten und 2 von diesen Platten werden von unten auf Innenhöhe 15cm und 45cm angebracht.
 Auf die unterste Platte wird das Regal mit den 8 Fächern gelegt und befestigt (Maße: [Fächer SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Unterteilungsfachx8_Maße.svg)).
-Es empfiehlt sich, das Regal aus Sperrholz zu fertigen und dabei den Lasercutter zu nutzen. Dies gilt auch für das Pegboard und die USB-Sticks-Schublade. Pegboard und USB-Sticks-Schublade werden wiederum auf des Regal geschoben und befestigt.
+Es empfiehlt sich, das Regal aus Sperrholz zu fertigen und dabei den Lasercutter zu nutzen. Dies gilt auch für das Pegboard und die USB-Sticks-Schublade. Das Pegboard und die USB-Sticks-Schublade werden wiederum auf des Regal geschoben und befestigt.
+Wir haben das wie auf folgenden Bildern zu sehen ist gelöst, allerdings gibt es hier bestimmt auch andere Lösungen, das Pegboard und die Schublade zu fixieren:
+
+(BILDER VON INNENKONSTRUKTION EINFÜGEN)
+
 - Maße Pegboard mit passenden Pins: [Pegboard und Pins SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/PegboardPlusPin_Maße.svg)
 - Maße USB-Sticks-Schublade: [USB-Sticks-Schublade SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/UsedSticks_Schublade_Maße.svg)
 
