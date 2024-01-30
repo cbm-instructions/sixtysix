@@ -81,17 +81,31 @@ Am Ende soll der Schrank so aussehen:
 
 ### 2. Schrankinneres erstellen
 #### 2.1 Innenleben
+Das TechTresor-Innenleben kann natürlich den eigenen Bedürfnissen (größe der Fächer etc.) individuell angepasst werden. Wir haben uns für folgende Aufteilung entschieden, welche in dieser Anleitung näher beschrieben wird:
+![Nahaufnahme innen](https://github.com/cbm-instructions/sixtysix/blob/main/images/InnenFertig.jpg)
+
+Als erstes werden 3 Sperrholzplatten (Maße: [Platte SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Regalex2_Maße.svg)) auf Innenhöhe 15cm, 45cm und 50cm angebracht.
+Auf die unterste Platte wird das Regal mit den 8 Fächern gelegt und befestigt (Maße: [Fächer SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Unterteilungsfachx8_Maße.svg)).
+Es empfiehlt sich, das Regal aus Sperrholz zu fertigen und dabei den Lasercutter zu nutzen. Dies gilt auch für das Pegboard und die USB-Sticks-Schublade. Pegboard und USB-Sticks-Schublade werden wiederum auf des Regal geschoben und befestigt.
+- Maße Pegboard mit passenden Pins: [Pegboard und Pins SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/PegboardPlusPin_Maße.svg)
+- Maße USB-Sticks-Schublade: [USB-Sticks-Schublade SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/UsedSticks_Schublade_Maße.svg)
+
 #### 2.2 Entfernungsmesser Box
+Auf dem Schrank wird folgende Box aus Sperrholz entstehen (Maße für den Lasercutter: [Entfernungsmesser Box SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/LautsprecherBox_Oben_Maße.svg)):
+![Entfernungsmesser Box](https://github.com/cbm-instructions/sixtysix/blob/main/images/MotionSensorAußen.jpg)
+Die Box wird zunächst nur zusammengebaut und dann im weiteren Verlauf der Anleitung weiter bearbeitet und schließlich mittig auf den Schrank geklebt.
 
 ### 3. Technik konfigurieren
 #### 3.1 Raspberry
+Es empfiehlt sich, den Raspberry neu aufzusetzten und `sudo apt update` & `sudo apt upgrade` im Terminal auszuführen. Eine IDE (Geany), um einfache Scripte zu schreiben, sollte bereits installiert sein. Auch python3 sollte vorinstalliert sein. Selbst nach Fertigstellung der Box, kann der Raspberry per HDMI mit einem Monitor und per USB/Bluetooth mit einer Maus & Tastatur verbunden sein, um stets den Überlick über ablaufende Prozesse im TechTresor zu behalten.
+
 #### 3.2 Arduino Uno
 
  1. Installiere die Arduino IDE
  2. Öffne `Tools/Board` in der Arduino IDE und wähle den Arduino Uno
- 3. Öffne  `Tools/Port`  und wähle den COM Port, mit dem der Arduino Uno verbunden ist.
+ 3. Öffne  `Tools/Port`  und wähle den COM Port, mit dem der Arduino Uno verbunden ist
  4. Damit das Projekt funktionieren kann, müssen folgende Libraries über den Library Manager (`Tools/Manage Libraries`) installiert werden:
-    -   Adafruit NeoPixel
+    - Adafruit NeoPixel
     - MFRC522
     - Servo
 
@@ -100,11 +114,16 @@ Am Ende soll der Schrank so aussehen:
 2.  Gebe folgendes in das  `Additional Board Mananger URLs`  Feld ein: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 und http://arduino.esp8266.com/stable/package_esp8266com_index.json
 3.  Öffne  `Tools/Board/Boards Manager`
-4.  Suche nach ESP32 und Klicke den  `install`  Knopf für  `ESP32 by Espressif Systems`
+4.  Suche nach ESP32 und klicke den  `install`  Knopf für  `ESP32 by Espressif Systems`
 
 Der Code für die ESP32-Cam ist eine angepasste Version von folgendem Open Source Projekt: https://github.com/yoursunny/esp32cam/tree/main/examples/WifiCam
 #### 3.4 Barcode-Scanner
-#### 3.5 Datenbank erstellen
+Der Barcode-Scanner wird mit dem Raspberry verbunden. Dazu kann folgendes Tutorial verwendet werden: TODO.
+
+#### 3.5 RFID Reader
+Der "RFID Reader RC522" wird mit dem Arduino verbunden. Wie das funktioniert, wird sehr gut in diesem Tutorial beschrieben: https://arduinogetstarted.com/tutorials/arduino-rfid-nfc.
+
+#### 3.6 Datenbank erstellen
 Um die beim Öffnen der Tür entstehenden Bilder zu speichern und stets den aktuellen Bestand der Produktverfügbarkeit zu erfassen, ist eine Datenbank erforderlich. Wir haben uns für eine SQLite-Datenbank entschieden, die lokal auf dem Raspberry Pi läuft. Dafür muss SQLite wie folgt über das Terminal auf dem Raspberry Pi heruntergeladen werden: 
 ```
 sudo apt install sqlite3
@@ -136,6 +155,12 @@ Es muss auch ein Skript geschrieben werden, welches auf dem Arduino Uno läuft. 
 
 Das dritte Skript ist ein Python-Skript, das auf dem konfigurierten Raspberry Pi ausgeführt werden muss. Dieses Python-Skript ermöglicht die Kommunikation zwischen dem Arduino und dem Raspberry Pi mithilfe einer Bibliothek namens "Pyserial". Darüber hinaus erfasst das Python-Skript die Artikel des Barcode-Scanners und speichert sie zusammen mit dem von der URL abgerufenen Bild der ESP32-Cam beim Schließen der Schranktür in die lokale SQLite-Datenbank unter dem Tabellennamen "images". Zusätzlich wird für jedes ausgeliehene und zurückgegebene Objekt die Tabelle "items" aktualisiert, um den aktuellen Status jedes Objekts zu verfolgen (mit Status ist gemeint, ob ein Objekt derzeit ausgeliehen ist oder nicht). Das Python-Skript befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/asdf.py).
 ### 5. Schranktür bauen
+So wird die fertige TechTresor-Tür aus Sperrholz aussehen:
+![Fertige Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürFertig.jpg)
+- Maße der Tür: [Tür SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Tür_Maße.svg)
+- Maße Tür-Cover, hinter welches später Technik befestigt wird: [Tür-Cover SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürCover_Maße.svg)
+Die Tür wird mit den Scharnieren am Schrank befestigt, wie es auf dem Bild zu erkennen ist. Der Tür-Cover wird erst im weiteren Verlauf angebracht.
+
 ### 6. Technik anbringen
 Die Verkabelung der Technikkomponenten ist aufgebaut wie in der folgenden Grafik dargestellt:
 ![Schaltplan](https://github.com/cbm-instructions/sixtysix/blob/main/images/Schaltplan.png)
