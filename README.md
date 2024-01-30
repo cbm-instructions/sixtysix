@@ -187,6 +187,8 @@ Das sollte zum Schluss dann so aussehen: ![Motionsensor außen](https://github.c
 Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen geklebt werden und die Kabel durch ein kleines Loch geführt werden. Anschließend kann man optional noch weißes, milchiges Plexiglas zuschneiden und über die LEDs kleben, um das Licht zu brechen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
 
 ![LEDs](https://github.com/cbm-instructions/sixtysix/blob/main/images/LEDAußen.jpg)
+
+Nachdem die Technik fertig verkabelt ist, wird das dritte Regal auf 50cm Höhe von unten angebracht und das [Technikspace-Cover](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikspaceCover_Maße.svg) wird festgeschraubt, sodass der Technikspace komplett verschlossen ist. 
 ### 7. Free Stuff Schublade
 Die Idee hinter der Free Stuff Schublade ist, dass Studierende sich nicht nur Technikgegenstände ausleihen können sondern auch kleiner Artikel kostenlos erhalten können. Solche Artikel sind beispielsweise Süßgikeiten oder Hygieneartikel.
 
