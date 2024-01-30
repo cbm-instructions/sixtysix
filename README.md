@@ -184,25 +184,21 @@ Das sollte zum Schluss dann so aussehen: ![Motionsensor außen](https://github.c
 
 ![Motionsensor innen](https://github.com/cbm-instructions/sixtysix/blob/main/images/MotionSensorInnen.jpg)
 
-Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen geklebt werden und die Kabel durch ein kleines Loch geführt werden. Anschließend kann man optional noch weißes, milchiges Plexiglas zuschneiden und über die LEDs kleben, um das Licht zu brechen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
+Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen geklebt werden und die Kabel durch ein kleines Loch geführt werden. Anschließend kann man optional noch weißes, milchiges [Plexiglas](https://github.com/cbm-instructions/sixtysix/blob/main/images/LED_Plexiglascover_Ma%C3%9Fe.svg) zuschneiden und über die LEDs kleben, um das Licht zu brechen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
 
 ![LEDs](https://github.com/cbm-instructions/sixtysix/blob/main/images/LEDAußen.jpg)
 
-Nachdem die Technik fertig verkabelt ist, wird das dritte Regal auf 50cm Höhe von unten angebracht und das [Technikspace-Cover](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikspaceCover_Maße.svg) wird festgeschraubt, sodass der Technikspace komplett verschlossen ist. 
+Nachdem die Technik fertig verkabelt ist, wird das dritte Regal auf 50cm Höhe von unten angebracht und das [Technikspace-Cover](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikspaceCover_Maße.svg) wird festgeschraubt, sodass der Technikspace im Schrank komplett verschlossen ist. Danach wird das Cover für den Technikspace in der [Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürCover_Maße.svg) (hier nochmal die Maße) ausgeschnitten und verschraubt. Bei der Abdeckung für die Tür ist darauf zu achten, dass der Barcode-Scanner und die Kamera korrekt durch die Löcher in der Abdeckung geführt werden, damit weder die Linse noch der Scanner verdeckt werden.
 ### 7. Free Stuff Schublade
-Die Idee hinter der Free Stuff Schublade ist, dass Studierende sich nicht nur Technikgegenstände ausleihen können sondern auch kleiner Artikel kostenlos erhalten können. Solche Artikel sind beispielsweise Süßgikeiten oder Hygieneartikel.
+Die Idee hinter der Free Stuff Schublade ist, dass Studierende sich nicht nur Technikgegenstände ausleihen können sondern auch kleinere Artikel kostenlos erhalten können. Solche Artikel sind beispielsweise Süßgikeiten oder Hygieneartikel.
 
-Die Free Stuff Schublade besteht aus Sperrholz, dass nach folgenden Maßen zugeschnitten werden muss: [Free Stuff SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/FreeStuffSchublade_Ma%C3%9Fe.svg). Die Schublade muss zusammengesteckt werden und anschließend oberhalb des Technikspaces im inneren des TechTresors angebracht werden. 
+Die Free Stuff Schublade besteht aus Sperrholz, das nach folgenden Maßen zugeschnitten werden muss: [Free Stuff SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/FreeStuffSchublade_Ma%C3%9Fe.svg). Die Schublade muss zusammengeklebt werden und anschließend oberhalb des Technikspaces im Inneren des TechTresors angebracht werden. 
 
-Am Schluss muss die montierte Schublade so angebracht werden wie oben im Bild: ![Free Stuff Schublade](https://github.com/cbm-instructions/sixtysix/blob/main/images/FreeStuff.jpg)
+Zum Schluss muss die Schublade so eingefügt werden wie unten im Bild: ![Free Stuff Schublade](https://github.com/cbm-instructions/sixtysix/blob/main/images/FreeStuff.jpg)
 ### 8. Letzte Kleinigkeiten
-Zum Schluss müssen noch ein paar letzte Kleinigkeiten gemacht werden um den TechTresor zu vervollständigen. Als erstes müssen die Neopixel Strips, die sich an der Seite befinden mit einer Plexiglas Abdeckung geschützt werden. Diese muss mit einem Lasercutter zugeschnitten werden. Auch dazu gibt es eine SVG-Datei: [Plexiglas](https://github.com/cbm-instructions/sixtysix/blob/main/images/LED_Plexiglascover_Ma%C3%9Fe.svg)
+Um den TechTresor zu verschönern und den Nutzern wichtige Hinweise zu geben, sind Sticker für den RFID-Reader, die Free Stuff Schublade, den Barcode Scanner und die benutzte USB-Sticks Schublade angebracht worden. Die Sticker befinden sich in folgender SVG-Datei: [Sticker](https://github.com/cbm-instructions/sixtysix/blob/main/images/Vinyl_Sticker_Ma%C3%9Fe.svg).
 
-Um den TechTresor zu verschönern und den Nutzern wichtige Hinweise zu geben sind Sticker für den RFID-Reader, die Free Stuff Schublade, den Barcode Scanner und die benutzte USB-Sticks Schublade ein guter Weg. Die Sticker müssen natürlich an den korrekten Stellen angebracht werden um den Nutzer mitzuteilen, wo sich welches Komponent am TechTresor befindet. Die Sticker befinden sich in folgender SVG-Datei: [Sticker](https://github.com/cbm-instructions/sixtysix/blob/main/images/Vinyl_Sticker_Ma%C3%9Fe.svg)
-
-Um die gesamte Technik im TechTresor zu verbergen, müssen die beiden Technikräume, wie sie im Schritt 7 erklärt wurden, abgedeckt werden. Dazu müssen zwei weitere Stücke Sperrholz mit dem Lasercutter zugeschnitten werden: ein Stück für den Technikraum im [Schrankinneren](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikspaceCover_Ma%C3%9Fe.svg) und einen für den Technikraum in der [Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürCover_Maße.svg) (hier nochmal die Maße). Bei der Abdeckung für die Tür ist darauf zu achten, dass der Barcode-Scanner und die Kamera korrekt durch die Löcher in der Abdeckung geführt werden, damit weder die Linse noch der Scanner verdeckt werden.
-
-Jetzt da der TechTresor fertig gebaut wurde, müsst er ungefähr so aussehen: 
+Jetzt da der TechTresor fertig gebaut wurde, müsste er ungefähr so aussehen: 
 
 Entfernungsmesser und Free Stuff Schublade: ![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/ObenFertig.jpg)
 
@@ -212,7 +208,7 @@ Das Innere des TechTresors:
 Das Äußere des TechTresors: 
 ![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/AußenFertig.jpg)
 
-Von hinten:
+Von Hinten:
 ![oben](https://github.com/cbm-instructions/sixtysix/blob/main/images/HintenFertig.jpg)
 
 Fertige Tür:
@@ -221,7 +217,7 @@ Fertige Tür:
 ## Funktionsweise
 Angesichts der Vielzahl an Funktionen des TechTresors halten wir es für sinnvoll, die allgemeine Funktionsweise in einem separaten Abschnitt zu erläutern.
 
-Wenn ein Studierender ein oder mehrere Gegenstände aus dem TechTresor ausleihen möchte, muss er seinen Studienausweis an den RFID-Sensor halten, der sich in der Tür befindet. In diesem Moment macht die ESP32-Cam ein Foto vom Inneren des Schranks. Nach kurzer Zeit öffnet der Servo-Motor das 3D-gedruckte Schloss, wodurch sich die Tür öffnen lässt. Jetzt kann der Studierende ein Produkt entnehmen und es am im Inneren der Tür angebrachten Barcode-Scanner scannen. Diesen Vorgang kann der Studierende mit beliebig vielen Produkten wiederholen. Zum Schließen der Tür muss lediglich erneut der Studienausweis an den RFID-Reader gehalten werden.
+Wenn ein Studierender ein oder mehrere Gegenstände aus dem TechTresor ausleihen möchte, muss er seinen Studi-Ausweis an den RFID-Sensor halten, der sich in der Tür befindet. In diesem Moment macht die ESP32-Cam ein Foto vom Inneren des Schranks. Nach kurzer Zeit öffnet der Servo-Motor das 3D-gedruckte Schloss, wodurch sich die Tür öffnen lässt. Jetzt kann der Studierende ein Produkt entnehmen und es am im Inneren der Tür angebrachten Barcode-Scanner scannen. Diesen Vorgang kann der Studierende mit beliebig vielen Produkten wiederholen. Zum Schließen der Tür muss lediglich erneut der Studi-Ausweis an den RFID-Reader gehalten werden.
 
 Zusätzlich zu diesen Hauptfunktionalitäten verfügt der TechTresor über zwei weitere Features, die ihn besonders machen. Das erste Feature ist der Bewegungssensor, der am TechTresor angebracht ist. Wenn eine Person an dem TechTresor vorbeigeht, wird durch den Bewegungssensor ein zufälliger Sound über einen eingebauten Lautsprecher abgespielt, um die Aufmerksamkeit auf den TechTresor zu lenken.
 
