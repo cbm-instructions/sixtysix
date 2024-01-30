@@ -169,11 +169,11 @@ So wird die fertige TechTresor-Tür aus Sperrholz aussehen:
 ### 6. Technik anbringen
 Die Verkabelung der Technikkomponenten ist, wie in der folgenden Grafik schematisch dargestellt, aufgebaut:
 ![Schaltplan](https://github.com/cbm-instructions/sixtysix/blob/main/images/Schaltplan.png)
-Wir haben uns dafür entschieden die Kabel zu löten und eine Lochrasterplatine zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Kabelstecker ohne löten auszukommen. 
+Wir haben uns dafür entschieden die Kabel zu löten und eine Lochrasterplatine zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Steckkabel ohne löten auszukommen. 
 
-Um die Technikkomponenten bestmöglich nutzen und verstauen zu können haben wir diese in zwei verschiedenen Technikspaces angebracht. 
+Um die Technikkomponenten bestmöglich nutzen und verstauen zu können haben wir diese in zwei verschiedenen Technikspaces untergebracht. 
 
-Der erste Technikspace befinden sich im inneren des Schrankes unterhalb der "Free Stuff" Schublade. Dort befindet sich der Raspberry Pi und der Arduino Uno. Von dort aus verlaufen alle Kabel an die einzelnen Komponenten, die entweder von dem Raspberry oder Arduino gesteuert werden. Um den Raspberry mit Strom zu versorgen muss in die Rückwand des Schrank ein Loch gebohrt werden, durch welches das Stromkabel geführt wird. Der Technikspace im inneren des Schrankes sollte am Schluss so aussehen: 
+Der erste Technikspace befindet sich im Inneren des Schrankes unterhalb der "Free Stuff" Schublade. Dort befindet sich der Raspberry Pi und der Arduino Uno. Von dort aus verlaufen alle Kabel an die einzelnen Komponenten, die entweder von dem Raspberry oder Arduino gesteuert werden. Um den Raspberry mit Strom zu versorgen muss in die Rückwand des Schrank ein Loch gebohrt werden, durch welches das Stromkabel geführt wird. Der Technikspace im inneren des Schrankes sollte am Schluss so aussehen: 
 ![Technik Schrank](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikSchrank.jpg)
 Innerhalb der Schranktür befindet sich der zweite Technikspace. Hier müssen nicht nur einige der steuerbaren Komponenten angebracht werden, sondern auch die Leiterplatte ist hier positioniert. Der RFID-Sensor, der Barcode-Scanner, der Servo-Motor und die Kamera müssen hier sicher befestigt werden, um ein ungewolltes Verrutschen während des Öffnens und Schließens der Tür zu verhindern. Wir empfehlen das befestigen der Komponenten durch die Verwendung mehrerer Schrauben und kleiner Holzstücke, welche z.B. den RFID-Sensor an der Tür halten. Der zweite Technikspace sollte ungefähr so aussehen:
 ![Technik Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikTür.jpg)
