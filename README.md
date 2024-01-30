@@ -31,7 +31,7 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
 ----
  - AUX Kabel
  - USB 2.0 Cable Type A/B (Für Verbindung zwischen Raspberry und Arduino)
- - Jumper Wire 
+ - 2m 8-adriges Flachbandkabel
  - Raspberry Pi - Netzteil, 5 V, 2,5 A, Micro-USB
  ---------
 - 2 x Holzplatten 120cm * 60cm * 3cm
