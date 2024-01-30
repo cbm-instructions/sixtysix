@@ -224,11 +224,6 @@ Zusätzlich zu diesen Hauptfunktionalitäten verfügt der TechTresor über zwei 
 Das zweite Feature sind die zwei LED-Strips, die sich an den Seitenwänden des TechTresors befinden. Sie zeigen an, wie viele Gegenstände sich noch im Inneren befinden. Wenn mehr als 66% der Gegenstände nicht ausgeliehen sind, leuchten die LEDs grün. Bei weniger als 66%, aber mehr als 33%, leuchten sie orange. Wenn weniger als 33% der Gegenstände vorhanden sind, leuchten die LEDs rot.
 
 ## Nutzungsanleitung für Studierende
-
- 1. Halte deinen Studi-Ausweis an das RFID-Symbol vorne am Schrank, nach kurzem Warten solltest du hören, wie sich der Schrank öffnet
- 2. Suche dir anschließend das aus was du brauchst und scanne jedes Item einzeln mit dem Barcode-Scanner in der Tür
- 3. Schließe die Tür und halte sie geschlossen, halte dabei deinen Studi-Ausweise erneut an das RFID-Symbol, bis du hörst, wie das Schloss sich schließt
- 
- Gib deine Artikel spätestens nach 2 Wochen wieder ab, damit sie auch jemand anderem helfen können.
- ![Anleitung](https://github.com/cbm-instructions/sixtysix/blob/main/images/Anleitung.pdf)
+Damit auch Nutzer schnell und einfach die Funktionsweise des Schrankes verstehen, haben wir noch eine Anleitung erstellt, die man (dort wo der Schrank aufgestellt wird) hinlegen kann.
+Die Anleitung findet man hier: ![Anleitung](https://github.com/cbm-instructions/sixtysix/blob/main/images/Anleitung.pdf)
 
