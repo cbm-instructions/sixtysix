@@ -159,7 +159,7 @@ So wird die fertige TechTresor-Tür aus Sperrholz aussehen:
 ![Fertige Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürFertig.jpg)
 - Maße der Tür: [Tür SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Tür_Maße.svg)
 - Maße Tür-Cover, hinter welches später Technik befestigt wird: [Tür-Cover SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürCover_Maße.svg)
-Die Tür wird mit den Scharnieren am Schrank befestigt, wie es auf dem Bild zu erkennen ist. Der Tür-Cover wird erst im weiteren Verlauf angebracht.
+- Die Tür wird mit den Scharnieren am Schrank befestigt, wie es auf dem Bild zu erkennen ist. Der Tür-Cover wird erst im weiteren Verlauf angebracht.
 
 ### 6. Technik anbringen
 Die Verkabelung der Technikkomponenten ist aufgebaut wie in der folgenden Grafik dargestellt:
@@ -193,7 +193,7 @@ Zum Schluss müssen noch ein paar letzte Kleinigkeiten gemacht werden um den Tec
 
 Um den TechTresor zu verschönern und den Nutzern wichtige Hinweise zu geben sind Sticker für den RFID-Reader, die Free Stuff Schublade, den Barcode Scanner und die benutzte USB-Sticks Schublade ein guter Weg. Die Sticker müssen natürlich an den korrekten Stellen angebracht werden um den Nutzer mitzuteilen, wo sich welches Komponent am TechTresor befindet. Die Sticker befinden sich in folgender SVG-Datei: [Sticker](https://github.com/cbm-instructions/sixtysix/blob/main/images/Vinyl_Sticker_Ma%C3%9Fe.svg)
 
-Um die gesamte Technik im TechTresor zu verbergen, müssen die beiden Technikräume, wie sie im Schritt 7 erklärt wurden, abgedeckt werden. Dazu müssen zwei weitere Stücke Sperrholz mit dem Lasercutter zugeschnitten werden: ein Stück für den Technikraum im [Schrankinneren](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikspaceCover_Ma%C3%9Fe.svg) und einen für den Technikraum in der [Tür]((https://github.com/cbm-instructions/sixtysix/blob/main/images/T%C3%BCrCover_Ma%C3%9Fe.svg)). Bei der Abdeckung für die Tür ist darauf zu achten, dass der Barcode-Scanner und die Kamera korrekt durch die Löcher in der Abdeckung geführt werden, damit weder die Linse noch der Scanner verdeckt werden.
+Um die gesamte Technik im TechTresor zu verbergen, müssen die beiden Technikräume, wie sie im Schritt 7 erklärt wurden, abgedeckt werden. Dazu müssen zwei weitere Stücke Sperrholz mit dem Lasercutter zugeschnitten werden: ein Stück für den Technikraum im [Schrankinneren](https://github.com/cbm-instructions/sixtysix/blob/main/images/TechnikspaceCover_Ma%C3%9Fe.svg) und einen für den Technikraum in der [Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürCover_Maße.svg) (hier nochmal die Maße). Bei der Abdeckung für die Tür ist darauf zu achten, dass der Barcode-Scanner und die Kamera korrekt durch die Löcher in der Abdeckung geführt werden, damit weder die Linse noch der Scanner verdeckt werden.
 
 Jetzt da der TechTresor fertig gebaut wurde, müsst er ungefähr so aussehen: 
 
