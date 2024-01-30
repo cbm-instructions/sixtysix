@@ -1,7 +1,7 @@
 ﻿# TechTresor: Helfer in der Not
 TechTresor ist ein smarter Schrank, der Studierenden die Möglichkeit bietet, technische Gebrauchsgegenstände ganz einfach mit ihrem Studi-Ausweis auszuleihen, um ihnen in Notfall-Situationen den Tag zu retten. Neben den technischen Gegenständen, die nur zur Ausleihe stehen, stellt der TechTresor durch die sogenannte "Free Stuff"-Schublade auch eine Reihe verschiedenster Freebies, wie z.B. Hygieneartikel und Süßigkeiten, zur Verfügung. Das Ziel davon ist es, den Aufenthalt an der Hochschule angenehmer zu gestalten.
 
-Durch verschiedene Aufzeichnungsmethoden ist es den Betreibern des TechTresors möglich, festzustellen, welcher Studierender welchen Gegenstand ausgeliehen hat und wann. Dadurch kann geschaut werden, falls ein Gegenstand verschwunden ist, wer möglicherweise für das Verschwinden des Gegenstands verantwortlich ist.
+Durch verschiedene Aufzeichnungsmethoden ist es den Betreibern des TechTresors möglich, festzustellen, welcher Studierender welchen Gegenstand ausgeliehen hat und wann. Dadurch kann geprüft werden, falls ein Gegenstand verschwunden ist, wer möglicherweise für das Verschwinden des Gegenstands verantwortlich ist.
 
 ## Die Challenge
 Die Challenge, welche im Rahmen des Moduls "Challenge Based Making (WS 23/24)" gestellt wurde, lautete: "Wie können wir durch smarte Devices dabei helfen, dass die Aufenthaltsqualität an der Hochschule steigt?"   
