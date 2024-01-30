@@ -10,7 +10,7 @@ Anhand dieser Challenge führten wir einige Interviews mit Studierenden, um hera
    
    ![persona](https://github.com/cbm-instructions/sixtysix/blob/main/images/POV.png)
 
-Anhand dieser Persona haben wir uns dazu entschieden, den Zugang zu praktischen Technikgegenständen mithilfe des TechTresors zu ermöglichen.
+Aufgrund dieser Persona haben wir uns dazu entschieden, den Zugang zu praktischen Technikgegenständen mithilfe des TechTresors zu ermöglichen.
 
 # Bauanleitung
 In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor. Der Code für den Arduino und Raspberry befindet sich hier:  [Code](https://github.com/cbm-instructions/sixtysix/tree/main/code)
