@@ -96,7 +96,7 @@ Wir haben das wie auf folgenden Bildern zu sehen ist gelöst, allerdings gibt es
 - Maße USB-Sticks-Schublade: [USB-Sticks-Schublade SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/UsedSticks_Schublade_Maße.svg)
 
 #### 2.2 Entfernungsmesser Box
-Auf dem Schrank wird folgende Box aus Sperrholz entstehen (Maße für den Lasercutter: [Entfernungsmesser Box SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/LautsprecherBox_Oben_Maße.svg)):
+Auf dem Schrank wird folgende Box aus Sperrholz angebracht (Maße für den Lasercutter: [Entfernungsmesser Box SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/LautsprecherBox_Oben_Maße.svg)):
 ![Entfernungsmesser Box](https://github.com/cbm-instructions/sixtysix/blob/main/images/MotionSensorAußen.jpg)
 Die Box wird zunächst nur zusammengebaut und dann im weiteren Verlauf der Anleitung weiter bearbeitet und schließlich mittig auf den Schrank geklebt.
 
