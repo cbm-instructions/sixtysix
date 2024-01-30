@@ -82,7 +82,7 @@ Am Ende soll der Schrank so aussehen:
 
 ### 2. Schrankinneres erstellen
 #### 2.1 Innenleben
-Das TechTresor-Innenleben kann natürlich den eigenen Bedürfnissen (größe der Fächer etc.) individuell angepasst werden. Wir haben uns für folgende Aufteilung entschieden, welche in dieser Anleitung näher beschrieben wird:
+Das TechTresor-Innenleben kann natürlich den eigenen Bedürfnissen (Größe der Fächer etc.) individuell angepasst werden. Wir haben uns für folgende Aufteilung entschieden, welche in dieser Anleitung näher beschrieben wird:
 ![Nahaufnahme innen](https://github.com/cbm-instructions/sixtysix/blob/main/images/InnenFertig.jpg)
 
 Als erstes werden 3 Sperrholzplatten (Maße: [Platte SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Regalex2_Maße.svg)) auf Innenhöhe 15cm, 45cm und 50cm angebracht.
