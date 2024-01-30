@@ -123,7 +123,7 @@ und http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 Der Code für die ESP32-Cam ist eine angepasste Version von folgendem Open Source Projekt: https://github.com/yoursunny/esp32cam/tree/main/examples/WifiCam
 #### 3.4 Barcode-Scanner
-Der Barcode-Scanner wird mit dem Raspberry verbunden. Dazu kann folgendes Tutorial verwendet werden: TODO.
+Der Barcode-Scanner wird mit dem Raspberry per USB verbunden.
 
 #### 3.5 RFID Reader
 Der "RFID Reader RC522" wird mit dem Arduino verbunden. Wie das funktioniert, wird sehr gut in diesem Tutorial beschrieben: https://arduinogetstarted.com/tutorials/arduino-rfid-nfc.
