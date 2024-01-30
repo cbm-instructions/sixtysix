@@ -25,7 +25,7 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
  - Ultraschall Entfernungsmesser HC-SR04
  - Lautsprecher mit AUX Anschluss
  - TIANKONGRC TS90A Servo - 3.3V
- - Leiterplatte
+ - Lochrasterplatine
  - Neopixel LED mit mind. 56 Pixeln
  - Barcode-Scanner
 ----
@@ -169,7 +169,7 @@ So wird die fertige TechTresor-Tür aus Sperrholz aussehen:
 ### 6. Technik anbringen
 Die Verkabelung der Technikkomponenten ist, wie in der folgenden Grafik schematisch dargestellt, aufgebaut:
 ![Schaltplan](https://github.com/cbm-instructions/sixtysix/blob/main/images/Schaltplan.png)
-Wir haben uns dafür entschieden die Kabel zu löten und eine Leiterplatte zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Kabelstecker ohne löten auszukommen. 
+Wir haben uns dafür entschieden die Kabel zu löten und eine Lochrasterplatine zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Kabelstecker ohne löten auszukommen. 
 
 Um die Technikkomponenten bestmöglich nutzen und verstauen zu können haben wir diese in zwei verschiedenen Technikspaces angebracht. 
 
