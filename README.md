@@ -149,7 +149,7 @@ Zusätzlich wird eine weitere Tabelle benötigt, um den aktuellen Bestand aller 
 ```sql
 CREATE TABLE items (qrcode VARCHAR(32), taken BIT);
 ```
-Später wenn es wirklich Produkte in dem TechTresor geben soll, müssen diese natürlich in dem "items" Tabelle eingetragen werden.
+Später wenn es wirklich Produkte in dem TechTresor geben soll, müssen diese natürlich in der "items" Tabelle eingetragen werden.
 
 
 
