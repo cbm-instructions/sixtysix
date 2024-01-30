@@ -184,7 +184,7 @@ Das sollte zum Schluss dann so aussehen: ![Motionsensor außen](https://github.c
 
 ![Motionsensor innen](https://github.com/cbm-instructions/sixtysix/blob/main/images/MotionSensorInnen.jpg)
 
-Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen eingelegt werden und die Kabel durch ein kleines Loch geführt werden.  Die LEDs müssen, wenn korrekt angebracht so aussehen: 
+Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen geklebt werden und die Kabel durch ein kleines Loch geführt werden. Anschließend kann man optional noch weißes, milchiges Plexiglas zuschneiden und über die LEDs kleben, um das Licht zu brechen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
 
 ![LEDs](https://github.com/cbm-instructions/sixtysix/blob/main/images/LEDAußen.jpg)
 ### 7. Free Stuff Schublade
