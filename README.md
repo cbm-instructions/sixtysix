@@ -44,7 +44,7 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
  - 2 x Scharniere für Schranktür
  - Kabelspirale
  - 4 x Metallwinkel
- - Muttern ???
+ - Muttern
  - Möbelgriff
  - Lötzinn
  
@@ -59,6 +59,7 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
  - Akkuschrauber
  - Schraubenzieher
  - Pinsel
+ - Roland Schneideplotter
 
 ## Schritt für Schritt Anleitung
 ### 1. Schrank bauen
