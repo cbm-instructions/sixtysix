@@ -164,10 +164,10 @@ So wird die fertige TechTresor-Tür aus Sperrholz aussehen:
 ![Fertige Tür](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürFertig.jpg)
 - Maße der Tür: [Tür SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Tür_Maße.svg)
 - Maße Tür-Cover, hinter welches später Technik befestigt wird: [Tür-Cover SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/TürCover_Maße.svg)
-- Die Tür wird mit den Scharnieren am Schrank befestigt, wie es auf dem Bild zu erkennen ist. Der Tür-Cover wird erst im weiteren Verlauf angebracht.
+- Die Tür wird mit den Scharnieren am Schrank befestigt, wie es auf dem Bild zu erkennen ist. Das Tür-Cover wird erst im weiteren Verlauf angebracht.
 
 ### 6. Technik anbringen
-Die Verkabelung der Technikkomponenten ist aufgebaut wie in der folgenden Grafik dargestellt:
+Die Verkabelung der Technikkomponenten ist, wie in der folgenden Grafik schematisch dargestellt, aufgebaut:
 ![Schaltplan](https://github.com/cbm-instructions/sixtysix/blob/main/images/Schaltplan.png)
 Wir haben uns dafür entschieden die Kabel zu löten und eine Leiterplatte zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Kabelstecker ohne löten auszukommen. 
 
