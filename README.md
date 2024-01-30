@@ -226,5 +226,5 @@ Das zweite Feature sind die zwei LED-Strips, die sich an den Seitenwänden des T
 ## Nutzungsanleitung für Studierende
 Damit auch Nutzer schnell und einfach die Funktionsweise des Schrankes verstehen, haben wir noch eine Anleitung erstellt, die man (dort wo der Schrank aufgestellt wird) hinlegen kann.
 
-Die Anleitung findet man hier: ![Anleitung](https://github.com/cbm-instructions/sixtysix/blob/main/images/Anleitung.pdf)
+Die Anleitung findet man hier: !(https://github.com/cbm-instructions/sixtysix/blob/main/images/Anleitung.pdf)
 
