@@ -1,12 +1,12 @@
 ﻿# TechTresor: Helfer in der Not
-TechTresor ist ein smarter Schrank, der Studierenden die Möglichkeit bietet technische Gebrauchsgegenstände ganz einfach mit ihrem Studi-Ausweis auszuleihen um ihnen in Notfall Situationen den Tag zu retten. Neben den technischen Gegenstände, die nur zur Ausleihe stehen, stellt der TechTresor durch die sogenannte "Free Stuff" Schublade auch eine Reihe verschiedenster Freebies wie z.B. Hygieneartikel und Süßigkeiten zur Verfügung. Das Ziel davon ist es den Aufenthalt an der Hochschule angenehmer zu gestalten.
+TechTresor ist ein smarter Schrank, der Studierenden die Möglichkeit bietet, technische Gebrauchsgegenstände ganz einfach mit ihrem Studi-Ausweis auszuleihen, um ihnen in Notfall-Situationen den Tag zu retten. Neben den technischen Gegenständen, die nur zur Ausleihe stehen, stellt der TechTresor durch die sogenannte "Free Stuff"-Schublade auch eine Reihe verschiedenster Freebies, wie z.B. Hygieneartikel und Süßigkeiten, zur Verfügung. Das Ziel davon ist es, den Aufenthalt an der Hochschule angenehmer zu gestalten.
 
-Durch verschiedene Aufzeichnungsmethoden ist es den Betreibern des TechTresors möglich festzustellen welcher Studierender welchen Gegenstand ausgeliehen hat und wann. Dadurch kann geschaut werden, falls ein Gegenstand verschwunden ist, wer möglicherweise für das Verschwinden des Gegenstands verantwortlich ist. 
+Durch verschiedene Aufzeichnungsmethoden ist es den Betreibern des TechTresors möglich, festzustellen, welcher Studierender welchen Gegenstand ausgeliehen hat und wann. Dadurch kann geschaut werden, falls ein Gegenstand verschwunden ist, wer möglicherweise für das Verschwinden des Gegenstands verantwortlich ist.
 
 ## Die Challenge
 Die Challenge, welche im Rahmen des Moduls "Challenge Based Making (WS 23/24)" gestellt wurde, lautete: "Wie können wir durch smarte Devices dabei helfen, dass die Aufenthaltsqualität an der Hochschule steigt?"   
 
-Anhand dieser Challenge führten wir einige Interviews mit Studierenden um herauszufinden, was die größten Auslöser für eine schlechte Aufenthaltsqualität sind. Aus dem Ergebnis der Interviews haben wir eine Persona erstellt: 
+Anhand dieser Challenge führten wir einige Interviews mit Studierenden, um herauszufinden, was die größten Auslöser für eine schlechte Aufenthaltsqualität sind. Aus dem Ergebnis der Interviews haben wir eine Persona erstellt: 
    
    ![persona](https://github.com/cbm-instructions/sixtysix/blob/main/images/POV.png)
 
@@ -36,7 +36,7 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
  ---------
 - 2 x Holzplatten 120cm * 60cm * 3cm
 -  Sperrholz 4mm
- - Farbe (zum bemalen des Schranks)
+ - Farbe (zum Bemalen des Schranks)
  - ca. 48 Schrauben
  - 4 x Möbelrollen
  - Klebeband
@@ -62,8 +62,8 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
 
 ## Schritt für Schritt Anleitung
 ### 1. Schrank bauen
-Zu Beginn werden die Schrankwände durch Zuschneiden und Zusammenbau erstellt. Es ist wichtig, ausreichend Holz für die Wände, Decke und den Boden zur Verfügung zu haben. In unserem Fall haben wir ehemalige Tischplatten gewählt und diese passend mit einer Kreissäge zugeschnitten. Die genauen Schnittmaße können aus den beigefügten SVG-Dateien entnommen werden: [Schrank SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Au%C3%9Fengestell_Ma%C3%9Fe.svg)
-Dabei ist zu beachten, dass in die Decke (Nr. 5 in der SVG) ein kleines Loch gebohrt werden muss, um später die Kabel für den Entfernungsmesser und den Lautsprecher hindurchführen zu können. In die hintere Wand (Nr. 3 in der SVG) muss ein etwas größeres Loch gebohrt werden, um später das Stromkabel und gegebenenfalls ein HDMI-Kabel für den Raspberry Pi zu verlegen. Außerdem ist es erforderlich, in die Seitenwände (Nr. 1 & 2 in der SVG) einen passenden Bereich zu fräsen, um dort später die Neopixel LED Strips zu montieren. Zusätzlich muss an jeder Seite ein Loch in den gefrästen Bereich der Wände gebohrt werden, um die LED Strips mit Strom zu versorgen und ähnliches zu ermöglichen. 
+Zu Beginn werden die Schrankwände durch Zuschneiden und Zusammenbauen erstellt. Es ist wichtig, ausreichend Holz für die Wände, Decke und den Boden zur Verfügung zu haben. In unserem Fall haben wir ehemalige Tischplatten gewählt und diese passend mit einer Kreissäge zugeschnitten. Die genauen Schnittmaße können aus den beigefügten SVG-Dateien entnommen werden: [Schrank SVG](https://github.com/cbm-instructions/sixtysix/blob/main/images/Au%C3%9Fengestell_Ma%C3%9Fe.svg)
+Dabei ist zu beachten, dass in die Decke (Nr. 5 in der SVG) ein kleines Loch gebohrt werden muss, um später die Kabel für den Entfernungsmesser und den Lautsprecher hindurchführen zu können. In die hintere Wand (Nr. 3 in der SVG) muss ein etwas größeres Loch gebohrt werden, um später das Stromkabel und gegebenenfalls ein HDMI-Kabel für den Raspberry Pi zu verlegen. Außerdem ist es erforderlich, in die Seitenwände (Nr. 1 & 2 in der SVG) einen passenden Bereich zu fräsen, um dort später die Neopixel LED Strips zu montieren. Zusätzlich muss an jeder Seite ein Loch in den gefrästen Bereich der Wände gebohrt werden, um die LED Strips mit Strom zu versorgen.
 
 Sobald die Wände zugeschnitten und die zuvor beschriebenen Vorkehrungen getroffen wurden, ist es Zeit, die Wände miteinander zu befestigen. Dies erfolgt mit einem Akkuschrauber, mit dem die Wände miteinander verschraubt werden.
 
